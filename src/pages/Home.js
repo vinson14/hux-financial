@@ -9,7 +9,7 @@ class Home extends React.Component {
         return (
             <div className="Home">
                 <Header pos="fixed" />
-                <Container className="h-100 d-flex align-items-center">
+                <Container className="h-100 d-flex align-items-center justify-content-center">
                     <Row className="justify-content-center w-100">
                         <Col
                             xs={12}

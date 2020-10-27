@@ -41,6 +41,7 @@ class NavBarMobile extends React.Component {
                     key={link.id}
                     to={link.path}
                     className="pri-font text-white my-3 py-3 h3"
+                    exact
                 >
                     {link.text}
                 </NavLink>
