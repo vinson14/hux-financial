@@ -1,8 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Tabletop from "tabletop";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ProfileCard from "../components/ProfileCard";
 
 class About extends React.Component {
     constructor() {
@@ -36,21 +38,12 @@ class About extends React.Component {
                     <Row>
                         {this.state.profiles.map((profile) => (
                             <Col xs={12} md={6} lg={4} key={profile.row}>
-                                <Card>
-                                    <Card.Img src={require(`../static/img/${profile.img}`)} />
-                                    <Card.Body>
-                                        <Card.Title className="pri-font font-weight-bold">
-                                            {profile.name}
-                                        </Card.Title>
-                                        <Card.Text className="sec-font">
-                                            {profile.title}
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
+                                <ProfileCard profile={profile} />
                             </Col>
                         ))}
                     </Row>
                 </Container>
+                <Footer />
             </div>
         );
     }

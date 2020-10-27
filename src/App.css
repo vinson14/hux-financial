@@ -101,13 +101,13 @@ body,
 
 /* XS Devices */
 html {
-    font-size: 10px !important;
+    font-size: 12px !important;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     html {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 }
 
