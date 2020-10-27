@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Row, Col, Form, Button } from "react-bootstrap";
 import axios from "axios";
 
 class ContactForm extends React.Component {
@@ -31,8 +31,8 @@ class ContactForm extends React.Component {
             target.type === "checkbox" ? target.checked : target.value;
         const name = target.name;
 
-        if (name == "email") {
-            if (value != "" && !this.validateEmail(value)) {
+        if (name === "email") {
+            if (value !== "" && !this.validateEmail(value)) {
                 console.log("please enter a valid email");
             }
         }
@@ -66,7 +66,8 @@ class ContactForm extends React.Component {
                 this.setState({
                     submitted: true,
                     error: true,
-                    displayMsg: "Something went wrong, please ensure your email is entered correctly"
+                    displayMsg:
+                        "Something went wrong, please ensure your email is entered correctly",
                 });
             });
     };
