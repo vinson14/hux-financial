@@ -25,7 +25,7 @@ class Home extends React.Component {
                             <Link
                                 type="button"
                                 className="btn btn-outline-light sec-font my-3"
-                                to="contact"
+                                to="/contact"
                             >
                                 Find out more
                             </Link>
