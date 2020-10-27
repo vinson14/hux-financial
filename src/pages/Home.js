@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
 
@@ -21,12 +22,13 @@ class Home extends React.Component {
                             <h3 className="text-center text-white sec-font my-3">
                                 Start your climb with us today{" "}
                             </h3>
-                            <Button
-                                variant="outline-light"
-                                className="pri-font text-white my-3"
+                            <Link
+                                type="button"
+                                className="btn btn-outline-light sec-font my-3"
+                                to="contact"
                             >
                                 Find out more
-                            </Button>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>
