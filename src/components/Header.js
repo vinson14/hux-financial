@@ -12,7 +12,7 @@ class Header extends React.Component {
             isMobile: false,
             links: [
                 { id: 1, text: "Home", path: "/" },
-                { id: 2, text: "About", path: "/about" },
+                { id: 2, text: "Our Team", path: "/about" },
                 { id: 3, text: "Contact Us", path: "/contact" },
             ],
         };
@@ -36,10 +36,10 @@ class Header extends React.Component {
         
         if (this.state.isMobile) {
             return (
-                <NavBarMobile links={this.state.links} />
+                <NavBarMobile links={this.state.links} pos={this.props.pos}/>
             )
         }
-        return <NavBar links={this.state.links} />;
+        return <NavBar links={this.state.links} pos={this.props.pos}/>;
     }
 }
 

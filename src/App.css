@@ -21,6 +21,14 @@ body,
     font-family: "Karla", sans-serif !important;
 }
 
+.sec-font {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.translucent-black {
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
 /* NavBar */
 
 .navbar-nav .active {

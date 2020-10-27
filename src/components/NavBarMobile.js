@@ -47,7 +47,7 @@ class NavBarMobile extends React.Component {
             );
         });
         return (
-            <div className="navbar-mobile d-flex justify-content-between">
+            <div className={`navbar-mobile d-flex justify-content-between ${this.props.pos}-top`}>
                 <Link to="/" id="logo">
                     <Image src={this.state.logo} width="250" />
                 </Link>

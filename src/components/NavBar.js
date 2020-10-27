@@ -24,7 +24,7 @@ class NavBar extends React.Component {
         });
 
         return (
-            <Navbar className="pri-bg justify-content-between">
+            <Navbar className={`pri-bg justify-content-between ${this.props.pos}-top`}>
                 <Navbar.Brand href="/">
                     <Image src={logo} width="195" height="60" />
                 </Navbar.Brand>
