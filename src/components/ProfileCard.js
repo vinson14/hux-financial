@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 class ProfileCard extends React.Component {
     render() {
@@ -15,9 +16,13 @@ class ProfileCard extends React.Component {
                     <Card.Text className="sec-font">
                         {this.props.profile.title}
                     </Card.Text>
-                    <Button variant="outline-dark" className="sec-front">
+                    <Link
+                        type="button"
+                        className="btn btn-outline-dark sec-font"
+                        to={`/about/${this.props.profile.link}`}
+                    >
                         Learn more
-                    </Button>
+                    </Link>
                 </Card.Body>
             </Card>
         );

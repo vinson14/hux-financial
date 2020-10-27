@@ -22,7 +22,6 @@ class Header extends React.Component {
         this.setState({
             isMobile: window.innerWidth < MOBILEWIDTH,
         });
-        console.log(this.state.isMobile)
     };
 
     componentDidMount() {

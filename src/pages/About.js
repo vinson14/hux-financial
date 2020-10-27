@@ -35,6 +35,11 @@ class About extends React.Component {
             <div className="about">
                 <Header pos="sticky" />
                 <Container>
+                    <Row className="my-5">
+                        <Col>
+                            <h1 className="pri-font text-center">Our Team</h1>
+                        </Col>
+                    </Row>
                     <Row>
                         {this.state.profiles.map((profile) => (
                             <Col xs={12} md={6} lg={4} key={profile.row}>
@@ -43,7 +48,7 @@ class About extends React.Component {
                         ))}
                     </Row>
                 </Container>
-                <Footer />
+                <Footer pos=""/>
             </div>
         );
     }

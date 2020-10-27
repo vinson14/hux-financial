@@ -24,7 +24,7 @@ class Contact extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-                <Footer />
+                <Footer pos="fixed"/>
             </div>
         );
     }
