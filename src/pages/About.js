@@ -11,6 +11,7 @@ class About extends React.Component {
         super();
         this.state = {
             profiles: [],
+            isLoaded: false,
         };
     }
 
@@ -23,6 +24,7 @@ class About extends React.Component {
 
         this.setState({
             profiles: doc.Agents.elements,
+            isLoaded: true
         });
     };
 
@@ -31,26 +33,30 @@ class About extends React.Component {
     }
 
     render() {
-        return (
-            <div className="about">
-                <Header pos="sticky" />
-                <Container>
-                    <Row className="my-5">
-                        <Col>
-                            <h1 className="pri-font text-center">Our Team</h1>
-                        </Col>
-                    </Row>
-                    <Row>
-                        {this.state.profiles.map((profile) => (
-                            <Col xs={12} md={6} lg={4} key={profile.row}>
-                                <ProfileCard profile={profile} />
+        if (this.state.isLoaded) {
+            return (
+                <div className="about">
+                    <Header pos="sticky" />
+                    <Container>
+                        <Row className="my-5">
+                            <Col>
+                                <h1 className="pri-font text-center">Our Team</h1>
                             </Col>
-                        ))}
-                    </Row>
-                </Container>
-                <Footer pos=""/>
-            </div>
-        );
+                        </Row>
+                        <Row>
+                            {this.state.profiles.map((profile) => (
+                                <Col xs={12} md={6} lg={4} key={profile.row}>
+                                    <ProfileCard profile={profile} />
+                                </Col>
+                            ))}
+                        </Row>
+                    </Container>
+                    <Footer pos="" />
+                </div>
+            );
+        } else {
+            return <div></div>
+        }
     }
 }
 

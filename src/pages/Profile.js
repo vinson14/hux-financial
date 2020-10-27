@@ -10,6 +10,7 @@ class Profile extends React.Component {
         super(props);
         this.state = {
             profile: {},
+            isLoaded: false,
         };
     }
 
@@ -24,6 +25,7 @@ class Profile extends React.Component {
             profile: doc.Agents.elements.find(
                 (p) => p.link === this.props.match.params.name
             ),
+            isLoaded: true,
         });
     };
 
@@ -32,6 +34,9 @@ class Profile extends React.Component {
     }
 
     render() {
+        if (!this.state.isLoaded) {
+            return <div></div>;
+        }
         return (
             <div className="Profile">
                 <Header />
@@ -47,11 +52,21 @@ class Profile extends React.Component {
                             md={6}
                             className="d-flex flex-column justify-content-center align-items-center"
                         >
-                            <h2 className="pri-font">{this.state.profile.name}</h2>
+                            <h2 className="pri-font">
+                                {this.state.profile.name}
+                            </h2>
                             <h5 className="sec-font mb-5">
                                 <em>{this.state.profile.title}</em>
                             </h5>
-                            <p className="pri-font">{this.state.profile.profile}</p>
+                            <p className="pri-font">
+                                {this.state.profile.profile}
+                            </p>
+                            <p className="mt-5 w-100 pri-font">
+                                Mobile no. : {this.state.profile.mobile}
+                            </p>
+                            <p className="w-100 pri-font">
+                                Email : {this.state.profile.email}
+                            </p>
                         </Col>
                     </Row>
                 </Container>
