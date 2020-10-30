@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Tabletop from "tabletop";
+import parse from "html-react-parser";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
