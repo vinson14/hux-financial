@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/hux-financial/static/css/main.7b52c6a8.chunk.css",
-    "main.js": "/hux-financial/static/js/main.ac530a20.chunk.js",
-    "main.js.map": "/hux-financial/static/js/main.ac530a20.chunk.js.map",
-    "runtime-main.js": "/hux-financial/static/js/runtime-main.03ee39c4.js",
-    "runtime-main.js.map": "/hux-financial/static/js/runtime-main.03ee39c4.js.map",
+    "main.js": "/hux-financial/static/js/main.39eb163d.chunk.js",
+    "main.js.map": "/hux-financial/static/js/main.39eb163d.chunk.js.map",
+    "runtime-main.js": "/hux-financial/static/js/runtime-main.36ddf4ac.js",
+    "runtime-main.js.map": "/hux-financial/static/js/runtime-main.36ddf4ac.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/hux-financial/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.3ce785d3.chunk.js": "/hux-financial/static/js/2.3ce785d3.chunk.js",
-    "static/js/2.3ce785d3.chunk.js.map": "/hux-financial/static/js/2.3ce785d3.chunk.js.map",
-    "static/js/3.8ae8a655.chunk.js": "/hux-financial/static/js/3.8ae8a655.chunk.js",
-    "static/js/3.8ae8a655.chunk.js.map": "/hux-financial/static/js/3.8ae8a655.chunk.js.map",
+    "static/js/2.7a08b04e.chunk.js": "/hux-financial/static/js/2.7a08b04e.chunk.js",
+    "static/js/2.7a08b04e.chunk.js.map": "/hux-financial/static/js/2.7a08b04e.chunk.js.map",
+    "static/js/3.8af3110e.chunk.js": "/hux-financial/static/js/3.8af3110e.chunk.js",
+    "static/js/3.8af3110e.chunk.js.map": "/hux-financial/static/js/3.8af3110e.chunk.js.map",
     "index.html": "/hux-financial/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/hux-financial/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.7b52c6a8.chunk.css.map": "/hux-financial/static/css/main.7b52c6a8.chunk.css.map",
-    "static/js/2.3ce785d3.chunk.js.LICENSE.txt": "/hux-financial/static/js/2.3ce785d3.chunk.js.LICENSE.txt",
+    "static/js/2.7a08b04e.chunk.js.LICENSE.txt": "/hux-financial/static/js/2.7a08b04e.chunk.js.LICENSE.txt",
     "static/media/dark.aaaba1ec.png": "/hux-financial/static/media/dark.aaaba1ec.png",
     "static/media/App.css": "/hux-financial/static/media/home-bg.761c272b.jpg",
     "static/media/light-cropped.4dd147dd.png": "/hux-financial/static/media/light-cropped.4dd147dd.png",
     "static/media/light.3b787594.png": "/hux-financial/static/media/light.3b787594.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.03ee39c4.js",
+    "static/js/runtime-main.36ddf4ac.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.3ce785d3.chunk.js",
+    "static/js/2.7a08b04e.chunk.js",
     "static/css/main.7b52c6a8.chunk.css",
-    "static/js/main.ac530a20.chunk.js"
+    "static/js/main.39eb163d.chunk.js"
   ]
 }
