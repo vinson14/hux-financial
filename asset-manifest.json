@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hux-financial/static/css/main.f08d2f5f.chunk.css",
-    "main.js": "/hux-financial/static/js/main.02edcd4d.chunk.js",
-    "main.js.map": "/hux-financial/static/js/main.02edcd4d.chunk.js.map",
+    "main.css": "/hux-financial/static/css/main.60c3d6aa.chunk.css",
+    "main.js": "/hux-financial/static/js/main.4d1b07f2.chunk.js",
+    "main.js.map": "/hux-financial/static/js/main.4d1b07f2.chunk.js.map",
     "runtime-main.js": "/hux-financial/static/js/runtime-main.218f5bc4.js",
     "runtime-main.js.map": "/hux-financial/static/js/runtime-main.218f5bc4.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/hux-financial/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.3a3da367.chunk.js": "/hux-financial/static/js/2.3a3da367.chunk.js",
-    "static/js/2.3a3da367.chunk.js.map": "/hux-financial/static/js/2.3a3da367.chunk.js.map",
+    "static/js/2.11727ca2.chunk.js": "/hux-financial/static/js/2.11727ca2.chunk.js",
+    "static/js/2.11727ca2.chunk.js.map": "/hux-financial/static/js/2.11727ca2.chunk.js.map",
     "static/js/3.9c5a6200.chunk.js": "/hux-financial/static/js/3.9c5a6200.chunk.js",
     "static/js/3.9c5a6200.chunk.js.map": "/hux-financial/static/js/3.9c5a6200.chunk.js.map",
     "index.html": "/hux-financial/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/hux-financial/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.f08d2f5f.chunk.css.map": "/hux-financial/static/css/main.f08d2f5f.chunk.css.map",
-    "static/js/2.3a3da367.chunk.js.LICENSE.txt": "/hux-financial/static/js/2.3a3da367.chunk.js.LICENSE.txt",
+    "static/css/main.60c3d6aa.chunk.css.map": "/hux-financial/static/css/main.60c3d6aa.chunk.css.map",
+    "static/js/2.11727ca2.chunk.js.LICENSE.txt": "/hux-financial/static/js/2.11727ca2.chunk.js.LICENSE.txt",
     "static/media/dark.aaaba1ec.png": "/hux-financial/static/media/dark.aaaba1ec.png",
     "static/media/App.css": "/hux-financial/static/media/home-bg.761c272b.jpg",
     "static/media/light-cropped.4dd147dd.png": "/hux-financial/static/media/light-cropped.4dd147dd.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.218f5bc4.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.3a3da367.chunk.js",
-    "static/css/main.f08d2f5f.chunk.css",
-    "static/js/main.02edcd4d.chunk.js"
+    "static/js/2.11727ca2.chunk.js",
+    "static/css/main.60c3d6aa.chunk.css",
+    "static/js/main.4d1b07f2.chunk.js"
   ]
 }
