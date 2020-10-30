@@ -36,9 +36,9 @@ class About extends React.Component {
         if (this.state.isLoaded) {
             return (
                 <Fade in={true} appear={true}>
-                    <div className="about">
+                    <div className="About">
                         <Header pos="sticky" />
-                        <Container>
+                        <Container className="py-5">
                             <Row className="my-5">
                                 <Col>
                                     <h1 className="pri-font text-center">
@@ -59,7 +59,7 @@ class About extends React.Component {
                                 ))}
                             </Row>
                         </Container>
-                        <Footer pos="" />
+                        <Footer />
                     </div>
                 </Fade>
             );

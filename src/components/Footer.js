@@ -1,10 +1,10 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 class Footer extends React.Component {
     render() {
         return (
-            <footer className={`w-100 pri-bg ${this.props.pos}-bottom`}>
+            <Container className="Footer" fluid>
                 <Row className="justify-content-center">
                     <Col xs={12}>
                         <p className="pri-font text-light text-center mt-3">
@@ -12,7 +12,11 @@ class Footer extends React.Component {
                             Reserved.
                         </p>
                     </Col>
-                    <Col xs={10}><p className="t-and-c mb-0">Information is correct as at 30/10/2020</p></Col>
+                    <Col xs={10}>
+                        <p className="t-and-c mb-0">
+                            Information is correct as at 30/10/2020
+                        </p>
+                    </Col>
                     <Col xs={10}>
                         <p className="t-and-c mb-0 mt-1">
                             This is not the official website of AIA Singapore
@@ -59,7 +63,7 @@ class Footer extends React.Component {
                         </p>
                     </Col>
                 </Row>
-            </footer>
+            </Container>
         );
     }
 }
