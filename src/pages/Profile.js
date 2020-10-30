@@ -60,7 +60,7 @@ class Profile extends React.Component {
                                 <em>{this.state.profile.title}</em>
                             </h5>
                             <p className="pri-font">
-                                {this.state.profile.profile}
+                                {parse(this.state.profile.profile)}
                             </p>
                             <p className="mt-5 w-100 pri-font">
                                 Mobile no. : {this.state.profile.mobile}
