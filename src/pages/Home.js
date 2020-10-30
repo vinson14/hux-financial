@@ -1,15 +1,17 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Fade } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 class Home extends React.Component {
     render() {
         return (
+            <Fade in={true} appear={true}>
             <div className="Home">
                 <Header pos="fixed" />
-                <Container className="h-100 d-flex align-items-center justify-content-center">
+                <Container className="h-100 d-flex flex-column align-items-center justify-content-center">
                     <Row className="justify-content-center w-100">
                         <Col
                             xs={12}
@@ -32,7 +34,9 @@ class Home extends React.Component {
                         </Col>
                     </Row>
                 </Container>
+                <Footer />
             </div>
+            </Fade>
         );
     }
 }

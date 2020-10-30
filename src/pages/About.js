@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Fade } from "react-bootstrap";
 import Tabletop from "tabletop";
 
 import Header from "../components/Header";
@@ -24,7 +24,7 @@ class About extends React.Component {
 
         this.setState({
             profiles: doc.Agents.elements,
-            isLoaded: true
+            isLoaded: true,
         });
     };
 
@@ -35,27 +35,36 @@ class About extends React.Component {
     render() {
         if (this.state.isLoaded) {
             return (
-                <div className="about">
-                    <Header pos="sticky" />
-                    <Container>
-                        <Row className="my-5">
-                            <Col>
-                                <h1 className="pri-font text-center">Our Team</h1>
-                            </Col>
-                        </Row>
-                        <Row>
-                            {this.state.profiles.map((profile) => (
-                                <Col xs={12} md={6} lg={4} key={profile.row}>
-                                    <ProfileCard profile={profile} />
+                <Fade in={true} appear={true}>
+                    <div className="about">
+                        <Header pos="sticky" />
+                        <Container>
+                            <Row className="my-5">
+                                <Col>
+                                    <h1 className="pri-font text-center">
+                                        Our Team
+                                    </h1>
                                 </Col>
-                            ))}
-                        </Row>
-                    </Container>
-                    <Footer pos="" />
-                </div>
+                            </Row>
+                            <Row>
+                                {this.state.profiles.map((profile) => (
+                                    <Col
+                                        xs={12}
+                                        md={6}
+                                        lg={4}
+                                        key={profile.row}
+                                    >
+                                        <ProfileCard profile={profile} />
+                                    </Col>
+                                ))}
+                            </Row>
+                        </Container>
+                        <Footer pos="" />
+                    </div>
+                </Fade>
             );
         } else {
-            return <div></div>
+            return <div></div>;
         }
     }
 }

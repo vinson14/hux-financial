@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Fade } from "react-bootstrap";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -8,6 +8,7 @@ import ContactForm from "../components/ContactForm";
 class Contact extends React.Component {
     render() {
         return (
+            <Fade in={true} appear={true}>
             <div className="Contact">
                 <Header pos="sticky" />
                 <Container>
@@ -26,6 +27,7 @@ class Contact extends React.Component {
                 </Container>
                 <Footer pos="fixed"/>
             </div>
+            </Fade>
         );
     }
 }

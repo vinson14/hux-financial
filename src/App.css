@@ -99,6 +99,13 @@ body,
     transform: translateX(0%) !important;
 }
 
+/* T & C Styling */
+.t-and-c {
+    font-size: 11px !important;
+    font-family: "Karla", sans-serif !important;
+    color:white;
+}
+
 /* XS Devices */
 html {
     font-size: 12px !important;
