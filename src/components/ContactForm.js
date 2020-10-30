@@ -87,7 +87,7 @@ class ContactForm extends React.Component {
         return (
             <Form>
                 <Row className="justify-content-center">
-                    <Col xs={10} md={6} lg={4}>
+                    <Col xs={10} md={8} lg={7}>
                         <Form.Group>
                             <Form.Control
                                 type="text"
@@ -99,7 +99,7 @@ class ContactForm extends React.Component {
                             />
                         </Form.Group>
                     </Col>
-                    <Col xs={10} md={6} lg={4}>
+                    <Col xs={10} md={8} lg={7}>
                         <Form.Group>
                             <Form.Control
                                 type="text"
@@ -110,7 +110,7 @@ class ContactForm extends React.Component {
                             />
                         </Form.Group>
                     </Col>
-                    <Col xs={10} md={6} lg={4}>
+                    <Col xs={10} md={8} lg={7}>
                         <Form.Group>
                             <Form.Control
                                 type="text"
@@ -137,7 +137,7 @@ class ContactForm extends React.Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center my-3">
+                    <Col className="d-flex justify-content-center my-3 sec-font">
                         <Button
                             variant="outline-dark"
                             onClick={this.handleOnSubmit}

@@ -99,6 +99,15 @@ body,
     transform: translateX(0%) !important;
 }
 
+/* Contact Form Styling */
+.Contact input, .Contact textarea {
+    font-family: "Montserrat", sans-serif !important;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+
 /* T & C Styling */
 .t-and-c {
     font-size: 11px !important;

@@ -11,7 +11,7 @@ class Contact extends React.Component {
             <Fade in={true} appear={true}>
             <div className="Contact">
                 <Header pos="sticky" />
-                <Container>
+                <Container className="my-5">
                     <Row className="my-5">
                         <Col xs={12}>
                             <h1 className="text-center pri-font">
@@ -25,7 +25,7 @@ class Contact extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-                <Footer pos="fixed"/>
+                <Footer />
             </div>
             </Fade>
         );
