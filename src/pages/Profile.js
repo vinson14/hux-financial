@@ -41,7 +41,7 @@ class Profile extends React.Component {
         return (
             <div className="Profile">
                 <Header />
-                <Container className="my-5">
+                <Container className="my-5 p-5">
                     <Row>
                         <Col md={6}>
                             <Image
@@ -71,7 +71,7 @@ class Profile extends React.Component {
                         </Col>
                     </Row>
                 </Container>
-                <Footer pos="fixed" />
+                <Footer pos="" />
             </div>
         );
     }
