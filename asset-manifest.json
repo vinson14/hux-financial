@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hux-financial/static/css/main.60c3d6aa.chunk.css",
-    "main.js": "/hux-financial/static/js/main.4d1b07f2.chunk.js",
-    "main.js.map": "/hux-financial/static/js/main.4d1b07f2.chunk.js.map",
+    "main.js": "/hux-financial/static/js/main.ba2d3171.chunk.js",
+    "main.js.map": "/hux-financial/static/js/main.ba2d3171.chunk.js.map",
     "runtime-main.js": "/hux-financial/static/js/runtime-main.218f5bc4.js",
     "runtime-main.js.map": "/hux-financial/static/js/runtime-main.218f5bc4.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/hux-financial/static/css/2.20aa2d7b.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.11727ca2.chunk.js",
     "static/css/main.60c3d6aa.chunk.css",
-    "static/js/main.4d1b07f2.chunk.js"
+    "static/js/main.ba2d3171.chunk.js"
   ]
 }
