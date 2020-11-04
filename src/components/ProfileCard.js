@@ -17,7 +17,6 @@ class ProfileCard extends React.Component {
                         {this.props.profile.title}
                     </Card.Text>
                     <Link
-                        type="button"
                         className="btn btn-outline-dark sec-font"
                         to={`/about/${this.props.profile.link}`}
                     >

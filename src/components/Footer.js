@@ -8,8 +8,11 @@ class Footer extends React.Component {
                 <Row className="justify-content-center">
                     <Col xs={12}>
                         <p className="pri-font text-light text-center mt-3">
-                            Copyright © 2020 Hux Financial - All Rights
-                            Reserved.
+                            Copyright © 2020 Hux Financial
+                        </p>
+                        <p className="t-and-c text-center">
+                            Authorised representative of AIA Singapore Private
+                            Limited (Reg. No. 201106386R) - All Rights Reserved.
                         </p>
                     </Col>
                     <Col xs={10}>

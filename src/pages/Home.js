@@ -9,7 +9,7 @@ class Home extends React.Component {
     render() {
         return (
             <Fade in={true} appear={true}>
-                <div className="Home">
+                <div className="Home vh-100">
                     <Header pos="fixed" />
                     <Container className="h-100 d-flex flex-column align-items-center justify-content-center">
                         <Row className="justify-content-center align-items-center w-100">
@@ -25,7 +25,6 @@ class Home extends React.Component {
                                     Start your climb with us today
                                 </h3>
                                 <Link
-                                    type="button"
                                     className="btn btn-outline-light sec-font my-3"
                                     to="/contact"
                                 >
